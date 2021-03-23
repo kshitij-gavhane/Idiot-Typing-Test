@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "PressStart";
+  src: local("PressStart"),
+    url(./fonts/PressStart2P-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Monda";
+  src: local("Monda"), url(./fonts/Monda-Regular.ttf) format("truetype");
+}
+
+.App {
+  text-align: center;
+}
+
+
+.Input {
+  width: 50%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 1200px){
+  .Input {
+    width: 90%;
+  }
+}
+
+.Buttons {
+  width: 50%;
+}
+
+.Message {
+  margin-inline: 10px;
+}
+
+
+.App-header {
+  background-color: #1f2833;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
